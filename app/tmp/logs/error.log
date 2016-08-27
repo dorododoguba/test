@@ -56,3 +56,39 @@ Stack Trace:
 #1 /var/www/html/test/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
 #2 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2016-08-27 20:30:59 Error: [MissingControllerException] Controller class DeployController could not be found.
+Exception Attributes: array (
+  'class' => 'DeployController',
+  'plugin' => NULL,
+)
+Request URL: /test/Deploy
+Stack Trace:
+#0 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-27 20:34:30 Error: [MissingControllerException] Controller class DeployController could not be found.
+Exception Attributes: array (
+  'class' => 'DeployController',
+  'plugin' => NULL,
+)
+Request URL: /test/Deploy
+Stack Trace:
+#0 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-27 20:36:41 Error: [MissingControllerException] Controller class DeployController could not be found.
+Exception Attributes: array (
+  'class' => 'DeployController',
+  'plugin' => NULL,
+)
+Request URL: /test/Deploy
+Stack Trace:
+#0 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-27 20:36:43 Error: [MissingControllerException] Controller class DeployController could not be found.
+Exception Attributes: array (
+  'class' => 'DeployController',
+  'plugin' => NULL,
+)
+Request URL: /test/Deploy
+Stack Trace:
+#0 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
