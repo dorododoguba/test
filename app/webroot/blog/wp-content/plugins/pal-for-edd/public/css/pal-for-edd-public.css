@@ -1,0 +1,26 @@
+#edd_show_full_shipping_details p input, a.paypal_for_edd_express_cancel{
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 0;
+    font-size: 14px;    
+    font-weight: 400;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    color: #fff;
+    background: #428bca;
+    border-radius: 4px;
+    text-decoration: none;
+    box-shadow: none;
+    -webkit-user-select: none;
+}
+#edd_show_full_shipping_details p span{
+    display: inline-block; 
+    -webkit-user-select: none;
+}
+#edd_show_full_shipping_details p label{
+    font-weight: 100;
+}
