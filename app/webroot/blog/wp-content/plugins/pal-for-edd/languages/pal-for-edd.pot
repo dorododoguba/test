@@ -1,0 +1,340 @@
+# Copyright (C) 2016 PayPal For Easy Digital Downloads
+# This file is distributed under the same license as the PayPal For Easy Digital Downloads package.
+msgid ""
+msgstr ""
+"Project-Id-Version: PayPal For Easy Digital Downloads 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pal-for-edd\n"
+"POT-Creation-Date: 2016-06-03 18:14:06+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout-helper.php:134
+msgid "PayPal Express Checkout Empty Token & Payerid Try Again!"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout-helper.php:145
+msgid "Nonce verification has failed"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout-helper.php:145
+msgid "Error"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout-helper.php:538
+msgid "Total Discount"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout-helper.php:566
+msgid "PayPal Rounding Adjustment"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:7
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:8
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:25
+msgid "PayPal Express Checkout"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:18
+msgid "Please Note: This transaction will run on TESTMODE."
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:20
+msgid "Please Note: This transaction will run on LIVE."
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:41
+msgid "Express Checkout Settings"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:46
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:35
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:35
+msgid "Enable Testmode "
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:47
+msgid ""
+"The testmode is PayPal's test environment and is only for use with sandbox "
+"accounts created within your <a  href=\"https://developer.paypal.com/\" "
+"target=\"_blank\">PayPal developer account.</a>"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:52
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:68
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:41
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:57
+msgid "API Username "
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:53
+msgid ""
+"Create sandbox accounts and obtain API credentials from within your <a href="
+"\"https://developer.paypal.com/\" target=\"_blank\">PayPal developer account."
+"</a>"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:58
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:74
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:47
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:63
+msgid "API Password "
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:63
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:79
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:52
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:68
+msgid "API Signature "
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:69
+msgid ""
+"Get your live account API credentials from your PayPal account profile under "
+"the API Access section or by using <a href=\"https://www.paypal.com/us/cgi-"
+"bin/webscr?cmd=_login-api-run\" target=\"_blank\">this tool.</a>"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:84
+msgid "Checkout Page Display"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:85
+msgid ""
+"Displaying the checkout button at the top of the checkout page will allow "
+"users to skip filling out the forms and can potentially increase conversion "
+"rates."
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:90
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:96
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:73
+msgid "Invoice ID Prefix"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:91
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:97
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:74
+msgid ""
+"Add a prefix to the invoice ID sent to PayPal. This can resolve duplicate "
+"invoice problems when working with multiple websites on the same PayPal "
+"account."
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:96
+msgid "Express Checkout Message"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:97
+msgid ""
+"This message will be displayed next to the PayPal Express Checkout button at "
+"the checkout page."
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:102
+msgid "Skip Final Review"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:103
+msgid ""
+"By default, users will be returned from PayPal and presented with a final "
+"review page which includes shipping and tax in the order details.  Enable "
+"this option to eliminate this page in the checkout process."
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:108
+msgid "Landing Page"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:110
+msgid ""
+"Type of PayPal page to display as default. PayPal Account Optional must be "
+"checked for this option to be used."
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:115
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:89
+msgid "Payment Action "
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:117
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:91
+msgid ""
+"Sale will capture the funds immediately when the order is placed. "
+"Authorization will authorize the payment but will not capture the funds. You "
+"would need to capture funds through your PayPal account when you are ready "
+"to deliver."
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:122
+msgid "Custom Button URL"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:123
+msgid ""
+"Custom Button ( If you select this option then please enter URL in Custom "
+"Button textbox, Otherwise payment button will not display. )"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:132
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:102
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:79
+msgid "Debug Log"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:133
+msgid "Enable logging<code>%s</code>"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:145
+msgid "Login"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:148
+msgid "Billing"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:159
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:115
+msgid "Sale"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:162
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:118
+msgid "Authorization"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-express-checkout.php:225
+msgid "Shipping Address"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow-helper.php:249
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro-helper.php:296
+msgid "Payment Error"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow-helper.php:249
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro-helper.php:296
+msgid ""
+"Payment creation failed while processing a manual (free or test) purchase. "
+"Payment data: %s"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:8
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:9
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:15
+msgid "PayPal Payflow"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:30
+msgid "PayPal Payflow Settings"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:37
+msgid "Enable Paypal Payflow Sandbox/Test Mode"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:41
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:65
+msgid "PayPal Vendor"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:42
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:66
+msgid ""
+"Your merchant login ID that you created when you registered for the account."
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:47
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:71
+msgid "PayPal Password"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:48
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:72
+msgid "The password that you defined while registering for the account."
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:53
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:77
+msgid "PayPal User"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:54
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:78
+msgid ""
+"If you set up one or more additional users on the account, this value is the "
+"ID of the user authorized to process transactions. Otherwise, leave this "
+"field blank."
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:59
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:83
+msgid "PayPal Partner"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:60
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:84
+msgid ""
+"The ID provided to you by the authorized PayPal Reseller who registered you "
+"for the Payflow SDK. If you purchased your account directly from PayPal, use "
+"PayPal or leave blank."
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-payflow.php:103
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:80
+msgid "Enable logging <code>%s</code>"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:8
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:9
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:15
+msgid "PayPal Pro"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:30
+msgid "PayPal Pro Settings"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:37
+msgid "Enable Paypal Pro Sandbox/Test Mode"
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:42
+msgid ""
+"Create sandbox accounts and obtain API credentials from within your <a href="
+"\"%s\" target=\"_blank\">PayPal developer account</a>."
+msgstr ""
+
+#: admin/partials/gatways/class-pal-for-edd-paypal-pro.php:58
+msgid ""
+"Get your live account API credentials from your PayPal account profile under "
+"the API Access section or by using <a href=\"https://www.paypal.com/us/cgi-"
+"bin/webscr?cmd=_login-api-run\" target=\"_blank\">here.</a>"
+msgstr ""
+
+#: public/partials/pal-for-edd-public-display.php:10
+msgid "Your cart is empty"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (PayPal For Easy Digital Downloads 1.0.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#. #-#-#-#-#  plugin.pot (PayPal For Easy Digital Downloads 1.0.2)  #-#-#-#-#
+#. Description of the plugin/theme
+msgid "PayPal For Easy Digital Downloads"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "pal-for-edd"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "gmexsoftware"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.mbjtechnolabs.com/"
+msgstr ""
