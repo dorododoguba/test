@@ -92,3 +92,12 @@ Request URL: /test/Deploy
 Stack Trace:
 #0 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-08-27 20:49:22 Error: [MissingControllerException] Controller class DeployController could not be found.
+Exception Attributes: array (
+  'class' => 'DeployController',
+  'plugin' => NULL,
+)
+Request URL: /test/Deploy
+Stack Trace:
+#0 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
