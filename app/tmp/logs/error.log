@@ -240,3 +240,21 @@ Request URL: /test/dep.php
 Stack Trace:
 #0 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-08-29 20:27:20 Error: [MissingControllerException] Controller class Dep.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Dep.phpController',
+  'plugin' => NULL,
+)
+Request URL: /test/dep.php
+Stack Trace:
+#0 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-29 20:33:01 Error: [MissingControllerException] Controller class Dep.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Dep.phpController',
+  'plugin' => NULL,
+)
+Request URL: /test/dep.php
+Stack Trace:
+#0 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

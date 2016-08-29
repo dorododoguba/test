@@ -1,6 +1,6 @@
 <?php
 	App::uses('AppController', 'Controller');
-
+	App::uses('Shell', 'Console');
 class DeployController extends AppController {
 
 	public function index(){
