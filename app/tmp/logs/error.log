@@ -258,3 +258,117 @@ Request URL: /test/dep.php
 Stack Trace:
 #0 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-09-01 16:06:34 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /test/app/
+Stack Trace:
+#0 /var/www/html/test/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/test/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-09-01 16:06:36 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /test/app/
+Stack Trace:
+#0 /var/www/html/test/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/test/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-09-01 16:06:44 Error: [MissingActionException] Action AppController::Tokka.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'Tokka.php',
+)
+Request URL: /test/app/Tokka.php
+Stack Trace:
+#0 /var/www/html/test/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/test/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-09-01 16:07:45 Error: [MissingActionException] Action AppController::Tokka.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'Tokka.php',
+)
+Request URL: /test/app/Tokka.php
+Stack Trace:
+#0 /var/www/html/test/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/test/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-09-01 16:07:45 Error: [MissingActionException] Action AppController::Tokka.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'Tokka.php',
+)
+Request URL: /test/app/Tokka.php
+Stack Trace:
+#0 /var/www/html/test/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/test/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-09-01 16:07:49 Error: [MissingControllerException] Controller class Tokka.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Tokka.phpController',
+  'plugin' => NULL,
+)
+Request URL: /test/Tokka.php
+Stack Trace:
+#0 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-09-01 16:07:57 Error: Fatal Error (4): syntax error, unexpected '$curl' (T_VARIABLE) in [/var/www/html/test/app/Controller/TokkaController.php, line 8]
+2016-09-01 16:07:57 Error: [FatalErrorException] syntax error, unexpected '$curl' (T_VARIABLE)
+Request URL: /test/Tokka
+Stack Trace:
+#0 /var/www/html/test/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 8, Array)
+#2 /var/www/html/test/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 8, Array)
+#3 /var/www/html/test/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-09-01 16:09:18 Error: Fatal Error (4): syntax error, unexpected '$curl' (T_VARIABLE) in [/var/www/html/test/app/Controller/TokkaController.php, line 8]
+2016-09-01 16:09:18 Error: [FatalErrorException] syntax error, unexpected '$curl' (T_VARIABLE)
+Request URL: /test/Tokka
+Stack Trace:
+#0 /var/www/html/test/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 8, Array)
+#2 /var/www/html/test/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 8, Array)
+#3 /var/www/html/test/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-09-01 16:09:19 Error: Fatal Error (4): syntax error, unexpected '$curl' (T_VARIABLE) in [/var/www/html/test/app/Controller/TokkaController.php, line 8]
+2016-09-01 16:09:19 Error: [FatalErrorException] syntax error, unexpected '$curl' (T_VARIABLE)
+Request URL: /test/Tokka
+Stack Trace:
+#0 /var/www/html/test/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 8, Array)
+#2 /var/www/html/test/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 8, Array)
+#3 /var/www/html/test/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-09-01 16:15:03 Error: [MissingActionException] Action AppController::Tokka.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'Tokka.php',
+)
+Request URL: /test/app/Tokka.php
+Stack Trace:
+#0 /var/www/html/test/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/test/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-09-01 16:15:05 Error: [MissingControllerException] Controller class Tokka.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Tokka.phpController',
+  'plugin' => NULL,
+)
+Request URL: /test/Tokka.php
+Stack Trace:
+#0 /var/www/html/test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
