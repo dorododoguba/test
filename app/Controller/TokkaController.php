@@ -1,9 +1,13 @@
 <?php
-	App::uses('AppController', 'Controller');
-class TokkaController extends AppController {
-    public $uses = null;
-	public function index(){
+//	App::uses('phpQuery-onefile', 'Vendor');
+//App::import('Vendor','phpQuery',array('file' => 'phpQuery-onefile'));
 
+App::import('Vendor','phpQuery-onefile');
+class TokkaController extends AppController {
+
+
+		public function index(){
+/*
                 $url = "http://potato.2ch.net/jisaku/subback.html";
 		$curl = curl_init();
 
@@ -25,14 +29,46 @@ class TokkaController extends AppController {
 		// var_dump($header);
 		curl_close($curl);
 		$response = mb_convert_encoding($response, 'UTF-8', 'SJIS');
-                var_dump($response);
-                $this->set("response", $response);
+       //         var_dump($response);
+*/
+
+
+
+
+
+
+
+
+                $html = "http://potato.2ch.net/jisaku/subback.html";
+		$response = file_get_contents($html);
+//		$response = mb_convert_encoding($response, 'UTF-8', 'SJIS');
+                $queryObj = phpQuery::newDocumentHTML($response, $charset = 'UTF-8');
+ 
+//               var_dump($queryObj);
+//                var_dump($queryObj["a"]->attr("href"));
+//                debug($queryObj);
+//              $this->set("response", $response);
+                $i = null;
+                $link = $queryObj["#trad"];
+
+		foreach($link['a'] as $val){
+
+
+                        $str = '306'; 
+
+                        if(strstr(pq($val)->text(), $str)){
+
+				var_dump(pq($val)->text());
+                                var_dump(pq($val)->attr('href'));
+                        }
+
+		}
+
+//	echo ($link);
 
 	}
 
 
-
-
-
 }
 ?>
+
