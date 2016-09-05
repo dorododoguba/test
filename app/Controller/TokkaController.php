@@ -31,13 +31,10 @@ class TokkaController extends AppController {
 		$response = mb_convert_encoding($response, 'UTF-8', 'SJIS');
        //         var_dump($response);
 */
-
-
                 $html = "http://potato.2ch.net/jisaku/subback.html";
 		$response = file_get_contents($html);
 //		$response = mb_convert_encoding($response, 'UTF-8', 'SJIS');
                 $queryObj = phpQuery::newDocumentHTML($response, $charset = 'UTF-8');
-
 //               var_dump($queryObj);
 //                var_dump($queryObj["a"]->attr("href"));
 //                debug($queryObj);
