@@ -54,7 +54,7 @@ class TokkaController extends AppController {
 		foreach($link['a'] as $val){
 
 
-                        $str = '特価品'; 
+                        $str = '特価品';
 
                         if(strstr(pq($val)->text(), $str)){
 
