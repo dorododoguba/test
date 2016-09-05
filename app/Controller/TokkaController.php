@@ -33,12 +33,6 @@ class TokkaController extends AppController {
 */
 
 
-
-
-
-
-
-
                 $html = "http://potato.2ch.net/jisaku/subback.html";
 		$response = file_get_contents($html);
 //		$response = mb_convert_encoding($response, 'UTF-8', 'SJIS');
