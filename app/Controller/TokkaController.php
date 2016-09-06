@@ -44,7 +44,6 @@ class TokkaController extends AppController {
 
 		foreach($link['a'] as $val){
 
-
                         $str = '特価品';
 
                         if(strstr(pq($val)->text(), $str)){
@@ -52,10 +51,9 @@ class TokkaController extends AppController {
 				var_dump(pq($val)->text());
                                 var_dump(pq($val)->attr('href'));
                         }
-
 		}
 
-//	echo ($link);
+	echo ($link);
 
 	}
 
