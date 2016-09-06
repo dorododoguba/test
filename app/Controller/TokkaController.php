@@ -53,7 +53,7 @@ class TokkaController extends AppController {
                         }
 		}
 
-	echo ($link);
+//	echo ($link);
 
 	}
 
