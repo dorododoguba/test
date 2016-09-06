@@ -13,7 +13,7 @@ class TokkaController extends AppController {
 
 		curl_setopt($curl, CURLOPT_URL, $url);
 		curl_setopt($curl, CURLOPT_CUSTOMREQUEST, 'GET'); // post
-		// curl_setopt($curl, CURLOPT_POSTFIELDS, $data); // jsonƒf[ƒ^‚ð‘—M
+		// curl_setopt($curl, CURLOPT_POSTFIELDS, $data); // jsonãƒ‡ãƒ¼ã‚¿ã‚’é€ä¿¡
 		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($curl,CURLOPT_SSL_VERIFYPEER, false);
 
@@ -53,7 +53,7 @@ class TokkaController extends AppController {
 
 		foreach($link['a'] as $val){
 
-                        $str = '“Á‰¿•i'; 
+                        $str = 'ç‰¹ä¾¡å“'; 
 //test
                         if(strstr(pq($val)->text(), $str)){
 
