@@ -13,7 +13,11 @@ class TokkaController extends AppController {
 
 		curl_setopt($curl, CURLOPT_URL, $url);
 		curl_setopt($curl, CURLOPT_CUSTOMREQUEST, 'GET'); // post
+<<<<<<< HEAD
 		// curl_setopt($curl, CURLOPT_POSTFIELDS, $data); // json�f�[�^�𑗐M
+=======
+		// curl_setopt($curl, CURLOPT_POSTFIELDS, $data); // jsonデータを送信
+>>>>>>> bde239acdf8a531251b8535fd7c9a716384ceff1
 		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($curl,CURLOPT_SSL_VERIFYPEER, false);
 
@@ -54,8 +58,9 @@ class TokkaController extends AppController {
 		foreach($link['a'] as $val){
 
 
-                        $str = '306'; 
 
+                        $str = '特価品'; 
+//test
                         if(strstr(pq($val)->text(), $str)){
 
 				var_dump(pq($val)->text());
@@ -64,9 +69,7 @@ class TokkaController extends AppController {
 
 		}
 
-//	echo ($link);
 
-	}
 
 
 }
