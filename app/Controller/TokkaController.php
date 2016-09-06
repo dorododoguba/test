@@ -54,7 +54,7 @@ class TokkaController extends AppController {
 		foreach($link['a'] as $val){
 
                         $str = '“Á‰¿•i'; 
-
+//test
                         if(strstr(pq($val)->text(), $str)){
 
 				var_dump(pq($val)->text());
