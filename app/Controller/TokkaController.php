@@ -13,7 +13,7 @@ class TokkaController extends AppController {
 
 		curl_setopt($curl, CURLOPT_URL, $url);
 		curl_setopt($curl, CURLOPT_CUSTOMREQUEST, 'GET'); // post
-		// curl_setopt($curl, CURLOPT_POSTFIELDS, $data); // jsonデータを送信
+		// curl_setopt($curl, CURLOPT_POSTFIELDS, $data); // json�f�[�^�𑗐M
 		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($curl,CURLOPT_SSL_VERIFYPEER, false);
 
@@ -31,10 +31,19 @@ class TokkaController extends AppController {
 		$response = mb_convert_encoding($response, 'UTF-8', 'SJIS');
        //         var_dump($response);
 */
+
+
+
+
+
+
+
+
                 $html = "http://potato.2ch.net/jisaku/subback.html";
 		$response = file_get_contents($html);
 //		$response = mb_convert_encoding($response, 'UTF-8', 'SJIS');
                 $queryObj = phpQuery::newDocumentHTML($response, $charset = 'UTF-8');
+ 
 //               var_dump($queryObj);
 //                var_dump($queryObj["a"]->attr("href"));
 //                debug($queryObj);
@@ -44,21 +53,20 @@ class TokkaController extends AppController {
 
 		foreach($link['a'] as $val){
 
-                        $str = '特価品';
+
+                        $str = '306'; 
 
                         if(strstr(pq($val)->text(), $str)){
 
 				var_dump(pq($val)->text());
                                 var_dump(pq($val)->attr('href'));
                         }
+
 		}
 
 //	echo ($link);
 
 	}
-
-
-
 
 
 }
