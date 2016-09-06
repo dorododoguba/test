@@ -1,8 +1,0 @@
-
-
-isset($this->request->data){
-
-         exec('cd /var/www/html/test;git pull');
-	var_dump($this->request->data);
-
-}
