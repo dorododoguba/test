@@ -69,7 +69,7 @@ class TokkaController extends AppController {
 
 		}
 
-
+}
 
 }
 ?>
