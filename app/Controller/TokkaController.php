@@ -54,7 +54,7 @@ class TokkaController extends AppController {
 		foreach($link['a'] as $val){
 
 
-                        $str = '“Á‰¿•i'; 
+                        $str = '306'; 
 
                         if(strstr(pq($val)->text(), $str)){
 
@@ -63,8 +63,12 @@ class TokkaController extends AppController {
                         }
 
 		}
+
 //	echo ($link);
+
 	}
+
+
 }
 ?>
 
