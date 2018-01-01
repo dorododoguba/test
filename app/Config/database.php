@@ -68,7 +68,7 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => ‘doroguba’,
+		'login' => ‘dodoguba’,
 		'password' => '090113',
 		'database' => ‘Amazon’,
 		'prefix' => '',
