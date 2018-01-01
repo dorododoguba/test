@@ -68,9 +68,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'pma',
-		'password' => 'aa090113',
-		'database' => 'test',
+		'login' => ‘dodoguba’,
+		'password' => '090113',
+		'database' => ‘Amazon’,
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
